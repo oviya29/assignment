@@ -1,0 +1,27 @@
+/*write a c++ program to find distructor statement
+#include<cstio>
+struct A
+{
+A(){ printf( "\t instance counter =%d(ctor)\n",++ instance -counter);}
+-A(){ printf("\t Instance counter =%d (ctor)\n",++instance-counter);
+}
+static int instance-counter;
+};
+classB : public A{};
+structC:public A
+{
+C() {PRINTF("\t c says hi !\n");
+};
+int A:: instance-counter =0;
+int main()
+{
+
+printf("Create A\n");Aa;
+printf("Delete A\n");a,~A();
+printf("Create B\n");Bb;
+printf("Delete B\n");b,~B();
+printf("Create new B stored as A*\n");A*a-ptr=new B();
+printf("Delete perivious pointer \n");delete a-ptr;
+printf("Create C\n");Cc;
+printf("Delete C\n");c,~C();
+}

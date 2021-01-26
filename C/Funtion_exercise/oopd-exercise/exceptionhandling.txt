@@ -1,0 +1,28 @@
+/*write a c++ program to find the Exception handling
+
+#include<iostream>
+int main()
+{
+int x=-1;
+cout<<" Before try \n ";
+try
+{ cout <<"After throw (Never executed )\n";
+}
+}
+catch (int x)
+{
+cout << "Exception caught \n" ;
+}
+cout << "Exception caught \n";
+}
+cout <<"Exception caught \n ";
+}
+cout <<"After catch (will be executed) \n" ;
+return 0;
+}
+
+output
+before try
+insite try
+exception caught
+after catch (will be executed)

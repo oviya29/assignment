@@ -1,0 +1,29 @@
+\*write a c++ program to find the virtual funtion
+
+#include<iostream>
+class base
+{
+public:
+virtual void print()
+{
+cout <<"Base funtion " << end 1;
+}
+};
+class derived : public base
+{
+public:
+void print ()
+{
+cout <<"Derived funtion " <<end1;
+}
+};
+int main()
+{
+Derived derived 1;
+Base *base 1= & derived 1;
+base 1 print ();
+return 0;
+}
+
+output
+Derived fution 

@@ -1,0 +1,44 @@
+/*write a c++ program to find the constructor
+
+class base
+{
+int x;
+Base()
+{
+cout<<"Base default constructor \n")
+}
+};
+class derived: public Base
+{
+int y;
+public;
+derived()
+{
+cout <<"Derived default constructor /n";
+}
+Derived (int i)
+{
+cout << "Base default constructor \n";
+}
+};
+class derived : public base
+{
+int y;
+public;
+derived()
+{
+cout <<"Derived parameterized constructor \n";
+}
+};
+int main()
+{
+base b;
+Derived d1;
+Derived d2(10);
+}
+
+output:
+Base default constructor
+base default constructor
+derived default constructor
+derived parameterized constructor
